@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ELLoginCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账户密码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRv-pi-dDF">
+                        <rect key="frame" x="18" y="8" width="60" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="GK8-bM-Km6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入账号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9sO-Su-c5o">
+                        <rect key="frame" x="98" y="8" width="204" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="9sO-Su-c5o" secondAttribute="trailing" constant="10" id="M4E-pi-LqW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="9sO-Su-c5o" secondAttribute="bottom" id="NDl-tX-IQB"/>
+                    <constraint firstItem="9sO-Su-c5o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="T7r-k1-3ku"/>
+                    <constraint firstItem="fRv-pi-dDF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ZNo-RR-plU"/>
+                    <constraint firstItem="fRv-pi-dDF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="ZoQ-yL-Jed"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fRv-pi-dDF" secondAttribute="bottom" id="fHy-dB-IFI"/>
+                    <constraint firstItem="9sO-Su-c5o" firstAttribute="leading" secondItem="fRv-pi-dDF" secondAttribute="trailing" constant="20" id="h7J-Ww-Siu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="leftLabel" destination="fRv-pi-dDF" id="vqB-UC-X3i"/>
+                <outlet property="rightTextField" destination="9sO-Su-c5o" id="JtI-9Y-yA8"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
