@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class ELShopinfoModel,ELGoodslistModel,ELGoodsslidesModel;
+@class ELShopinfoModel,ELGoodslistModel,ELGoodsslidesModel,ELShopNavigationModel;
 @interface ELMainShopTopModel : NSObject
 
 
@@ -17,7 +17,12 @@
 
 @property (nonatomic, strong) NSArray<ELGoodsslidesModel *> *goodsSlides;
 
-@property (nonatomic, strong) NSArray<ELGoodslistModel *> *goodsList;
+@property (nonatomic, strong) NSArray<ELGoodslistModel *> *recommendedGoods;
+
+@property (nonatomic, copy) NSArray *shopBanners;  ///<店铺轮播广告image
+@property (nonatomic, assign)NSInteger allGoodsCount;  ///<所有商品个数
+@property (nonatomic, copy)NSArray <ELShopNavigationModel *>*shopNavigations;  ///<商品导航的数组
+@property (nonatomic, assign)NSInteger newGoodsCount;  ///<新商品总数
 
 @property (nonatomic, assign) NSInteger pageNo;
 
@@ -126,7 +131,7 @@
 
 @property (nonatomic, assign) NSInteger viewCount;
 
-@property (nonatomic, assign) BOOL delete;
+@property (nonatomic, assign) BOOL isDelete;
 
 @property (nonatomic, copy) NSString *collected;
 
@@ -241,6 +246,36 @@
 @property (nonatomic, copy) NSString *goodsId;
 
 @property (nonatomic, copy) NSString *imgId;
+
+@end
+
+
+//推荐类别那个model
+@interface ELShopNavigationModel : NSObject
+@property (nonatomic, assign)NSInteger shopId;  ///<商品id
+@property (nonatomic, assign)NSInteger navigationId;  ///<导航id
+@property (nonatomic, assign)NSInteger sort;  ///<排序方式
+@property (nonatomic, assign)NSInteger unpdateDate;  ///<更新时间
+@property (nonatomic, assign)NSInteger isDelete;  ///<是否删除
+@property (nonatomic, assign)NSInteger createDate;  ///<创建时间
+@property (nonatomic, strong)NSString *name;  ///<商品名称
+
+
+@end
+
+@interface ELShopBannerModel : NSObject
+@property (nonatomic, assign)NSInteger bannerType;  ///<类
+@property (nonatomic, copy)NSString *imgUrl;  ///<图片url
+@property (nonatomic, assign)NSInteger createDate;  ///<创建时间
+@property (nonatomic, copy)NSString *bannerSerial;  ///<商品ser
+@property (nonatomic, assign)NSInteger isDelete;  ///<是否删除
+@property (nonatomic, assign)NSInteger bannerTypeId;  ///<广告类型id
+@property (nonatomic, assign)NSInteger bannerId ;  ///<广告id
+@property (nonatomic, assign)NSInteger updateDate;  ///<更新时间
+@property (nonatomic, copy)NSString *bannerTitle;  ///<广告标题
+@property (nonatomic, assign)NSInteger shopId;  ///<广告id
+@property (nonatomic, assign)NSInteger provinceId;  ///<省份
+@property (nonatomic, assign)NSInteger cityId;  ///<城市id
 
 @end
 

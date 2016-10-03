@@ -30,6 +30,7 @@
 #import "ELShopService.h"
 #import "ELCartListModel.h"
 #import "ELTabBarController.h"
+#import "ELShopMainController.h"
 
 @interface ELMainController ()
 <
@@ -297,7 +298,11 @@
 
 #pragma mark - ELMineHotCellDelegate
 - (void)hotShopDidSelectWithModel:(ELHotShopModel *)model{
+#if 0
     ELMainShopController  *vc = [ELMainShopController new];
+#elif 1
+    ELShopMainController *vc = [ELShopMainController new];
+#endif
     vc.shopId = model.shopId;
     [self.navigationController pushViewController:vc animated:YES];
 }

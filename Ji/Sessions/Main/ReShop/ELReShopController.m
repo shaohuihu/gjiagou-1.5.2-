@@ -11,6 +11,7 @@
 #import "ELReshopCell.h"
 #import "ELHotShopModel.h"
 #import "ELMainShopController.h"
+#import "ELShopMainController.h"
 
 @interface ELReShopController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
@@ -102,7 +103,7 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     ELHotShopModel *model = _datas[indexPath.row];
-    ELMainShopController  *vc = [ELMainShopController new];
+    ELShopMainController  *vc = [ELShopMainController new];
     vc.shopId = model.shopId;
     vc.title = model.name;
     [self.navigationController pushViewController:vc animated:YES];

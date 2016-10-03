@@ -51,6 +51,11 @@
 		1BE152171CEDDF9D00786AAF /* ELMainService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE152161CEDDF9D00786AAF /* ELMainService.m */; };
 		1BE1521A1CEDE0BF00786AAF /* ELLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE152191CEDE0BF00786AAF /* ELLocationController.m */; };
 		2955CA2EF526DA31B5F59AEB /* Pods_Ji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036212B1A984269FE4528870 /* Pods_Ji.framework */; };
+		3B9E38911DA119570006BDC2 /* ELShopMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38901DA119570006BDC2 /* ELShopMainController.m */; };
+		3B9E38951DA12E170006BDC2 /* ELShopMainHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38941DA12E170006BDC2 /* ELShopMainHeaderView.m */; };
+		3B9E38981DA13D630006BDC2 /* ELShopSelectTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38971DA13D630006BDC2 /* ELShopSelectTypeView.m */; };
+		3B9E389B1DA154160006BDC2 /* ELShopGoodListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E389A1DA154160006BDC2 /* ELShopGoodListView.m */; };
+		3B9E389E1DA1D8930006BDC2 /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E389D1DA1D8930006BDC2 /* XLPlainFlowLayout.m */; };
 		4E24C4AA1D192D1700F56F5D /* DBXieyiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24C4A81D192D1600F56F5D /* DBXieyiViewController.m */; };
 		4E24C4AB1D192D1700F56F5D /* DBXieyiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E24C4A91D192D1600F56F5D /* DBXieyiViewController.xib */; };
 		4E3672A11CF70640004EA632 /* DBNodataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3672A01CF70640004EA632 /* DBNodataView.m */; };
@@ -443,6 +448,16 @@
 		1BE152161CEDDF9D00786AAF /* ELMainService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELMainService.m; sourceTree = "<group>"; };
 		1BE152181CEDE0BF00786AAF /* ELLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLocationController.h; sourceTree = "<group>"; };
 		1BE152191CEDE0BF00786AAF /* ELLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELLocationController.m; sourceTree = "<group>"; };
+		3B9E388F1DA119570006BDC2 /* ELShopMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELShopMainController.h; path = ../ELShopMainController.h; sourceTree = "<group>"; };
+		3B9E38901DA119570006BDC2 /* ELShopMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELShopMainController.m; path = ../ELShopMainController.m; sourceTree = "<group>"; };
+		3B9E38931DA12E170006BDC2 /* ELShopMainHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELShopMainHeaderView.h; sourceTree = "<group>"; };
+		3B9E38941DA12E170006BDC2 /* ELShopMainHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELShopMainHeaderView.m; sourceTree = "<group>"; };
+		3B9E38961DA13D630006BDC2 /* ELShopSelectTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELShopSelectTypeView.h; sourceTree = "<group>"; };
+		3B9E38971DA13D630006BDC2 /* ELShopSelectTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELShopSelectTypeView.m; sourceTree = "<group>"; };
+		3B9E38991DA154160006BDC2 /* ELShopGoodListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELShopGoodListView.h; sourceTree = "<group>"; };
+		3B9E389A1DA154160006BDC2 /* ELShopGoodListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELShopGoodListView.m; sourceTree = "<group>"; };
+		3B9E389C1DA1D8930006BDC2 /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
+		3B9E389D1DA1D8930006BDC2 /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
 		4E24C4A71D192D1600F56F5D /* DBXieyiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBXieyiViewController.h; sourceTree = "<group>"; };
 		4E24C4A81D192D1600F56F5D /* DBXieyiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBXieyiViewController.m; sourceTree = "<group>"; };
 		4E24C4A91D192D1600F56F5D /* DBXieyiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBXieyiViewController.xib; sourceTree = "<group>"; };
@@ -1373,6 +1388,21 @@
 				1B524F871CF061930054FA2D /* ELHotGoodsModel.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3B9E38921DA12DA20006BDC2 /* ShopViews */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E389C1DA1D8930006BDC2 /* XLPlainFlowLayout.h */,
+				3B9E389D1DA1D8930006BDC2 /* XLPlainFlowLayout.m */,
+				3B9E38931DA12E170006BDC2 /* ELShopMainHeaderView.h */,
+				3B9E38941DA12E170006BDC2 /* ELShopMainHeaderView.m */,
+				3B9E38961DA13D630006BDC2 /* ELShopSelectTypeView.h */,
+				3B9E38971DA13D630006BDC2 /* ELShopSelectTypeView.m */,
+				3B9E38991DA154160006BDC2 /* ELShopGoodListView.h */,
+				3B9E389A1DA154160006BDC2 /* ELShopGoodListView.m */,
+			);
+			path = ShopViews;
 			sourceTree = "<group>";
 		};
 		41BABA2436CC7CECA8C02BA5 /* Frameworks */ = {
@@ -2310,6 +2340,9 @@
 		EEBD3AC11CF30140000215C4 /* Shops */ = {
 			isa = PBXGroup;
 			children = (
+				3B9E38921DA12DA20006BDC2 /* ShopViews */,
+				3B9E388F1DA119570006BDC2 /* ELShopMainController.h */,
+				3B9E38901DA119570006BDC2 /* ELShopMainController.m */,
 				EEBD3AC21CF3015D000215C4 /* ELMainShopController.h */,
 				EEBD3AC31CF3015D000215C4 /* ELMainShopController.m */,
 				EEBD3AC51CF309BE000215C4 /* ELMainShopTopModel.h */,
@@ -2449,7 +2482,7 @@
 				TargetAttributes = {
 					1B00EFC71CEC8B2200CEC7BA = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 8ZK8H2FJZF;
+						DevelopmentTeam = AF7R9ERQWF;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2654,7 +2687,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B841A1186C7010CCF4599D41 /* [CP] Check Pods Manifest.lock */ = {
@@ -2692,6 +2725,7 @@
 				4EA792781CFEE404009C8D56 /* DBOrderDetialModel.m in Sources */,
 				EE2BB42F1D07C6250079233B /* ELMesssageDeleteView.m in Sources */,
 				1B00F0091CEC8C0A00CEC7BA /* UIViewExt.m in Sources */,
+				3B9E389B1DA154160006BDC2 /* ELShopGoodListView.m in Sources */,
 				72606D411D0D9B9E0053E98C /* DBModifyPwViewController.m in Sources */,
 				1B5276971CEDEC2D00DBBD88 /* AreaLocationModel.m in Sources */,
 				EE2BB4201D07B16A0079233B /* ELMessageService.m in Sources */,
@@ -2746,6 +2780,7 @@
 				573697211D7D0A260067638C /* ELTableViewController.m in Sources */,
 				4EA792AC1CFEE404009C8D56 /* CustomSheetView.m in Sources */,
 				1B5276991CEDEC2D00DBBD88 /* SQLiteManager.m in Sources */,
+				3B9E389E1DA1D8930006BDC2 /* XLPlainFlowLayout.m in Sources */,
 				1BE152171CEDDF9D00786AAF /* ELMainService.m in Sources */,
 				577C3CDA1D4703F300C1FE8B /* WXApiManager.m in Sources */,
 				EEEA82111D017E8600990AFD /* ELCheckoutAddressCell.m in Sources */,
@@ -2804,6 +2839,7 @@
 				1B00F0221CEC8DCC00CEC7BA /* ELShopController.m in Sources */,
 				EE6C668B1CFC29DF00B36FB2 /* ELGoodsCommentCell.m in Sources */,
 				EE6C66851CFC298100B36FB2 /* ELGoodsStandardCell.m in Sources */,
+				3B9E38911DA119570006BDC2 /* ELShopMainController.m in Sources */,
 				4EA792741CFEE404009C8D56 /* DBAllOrderViewController.m in Sources */,
 				4EA792821CFEE404009C8D56 /* ELMineOrderItemView.m in Sources */,
 				EE843CE51CEEDB18008BDEAB /* ELMineHotCell.m in Sources */,
@@ -2835,6 +2871,7 @@
 				4EA792A91CFEE404009C8D56 /* DBUserSafyViewController.m in Sources */,
 				EEEA820B1D012D7500990AFD /* ELCartGoodsModel+bind.m in Sources */,
 				577B5E611D728651005F0B0F /* MBProgressHUD.m in Sources */,
+				3B9E38951DA12E170006BDC2 /* ELShopMainHeaderView.m in Sources */,
 				4EAEF1EF1D12349100DBD7DF /* DBModifyPhoneTwoViewController.m in Sources */,
 				1BA3AF351CEFF4A800259E78 /* ELHomeGoodsCell.m in Sources */,
 				4EA7926F1CFEE404009C8D56 /* DBCircleCell.m in Sources */,
@@ -2870,6 +2907,7 @@
 				EE932EF41CF824890045E521 /* ELGoodsTopView.m in Sources */,
 				4EA792711CFEE404009C8D56 /* DBTitleCell.m in Sources */,
 				1B641FF71CF05ED90088877D /* ELTopCatoryModel.m in Sources */,
+				3B9E38981DA13D630006BDC2 /* ELShopSelectTypeView.m in Sources */,
 				4EA792811CFEE404009C8D56 /* ELMineOrderCell.m in Sources */,
 				5749B11D1D7982F0002943DF /* ELRemarkCell.m in Sources */,
 				4EA792861CFEE404009C8D56 /* FXBlurView.m in Sources */,
@@ -3028,8 +3066,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hou xiulei (RJCB67HTA7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3072,7 +3110,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loongxun.gjiagou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7be86fda-c52c-47c6-9933-051392625df4";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -3083,8 +3121,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hou xiulei (RJCB67HTA7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3127,7 +3165,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loongxun.gjiagou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7be86fda-c52c-47c6-9933-051392625df4";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

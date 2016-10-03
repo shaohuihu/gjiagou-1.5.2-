@@ -76,7 +76,7 @@
             [ws p_endRefresh];
             if (success) {
                 ws.shopModel = [ELMainShopTopModel mj_objectWithKeyValues:result];
-                NSArray *array = _shopModel.goodsList;
+                NSArray *array = _shopModel.recommendedGoods;
                 if (curPage_ == 1) {
                     [ws.datas removeAllObjects];
                 }
@@ -89,7 +89,7 @@
             [ws p_endRefresh];
             if (success) {
                 ws.shopModel = [ELMainShopTopModel mj_objectWithKeyValues:result];
-                NSArray *array = _shopModel.goodsList;
+                NSArray *array = _shopModel.recommendedGoods;
                 if (curPage_ == 1) {
                     [ws.datas removeAllObjects];
                 }

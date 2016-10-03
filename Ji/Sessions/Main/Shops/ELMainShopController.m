@@ -109,7 +109,7 @@
             if(curPage_ == 1){
                 [_datas removeAllObjects];
             }
-            [_datas addObjectsFromArray:model.goodsList];
+            [_datas addObjectsFromArray:model.recommendedGoods];
             if (_datas.count == 0) {
                 ws.collectionView.mj_footer.hidden = YES;
             }

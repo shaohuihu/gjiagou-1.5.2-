@@ -12,7 +12,7 @@
 @implementation ELMainShopTopModel
 
 + (NSDictionary *)objectClassInArray{
-    return @{@"goodsList" : [ELGoodslistModel class], @"goodsSlides" : [ELGoodsslidesModel class]};
+    return @{@"recommendedGoods" : [ELGoodslistModel class], @"goodsSlides" : [ELGoodsslidesModel class],@"shopNavigations":[ELShopNavigationModel class],@"shopBanners":[ELShopBannerModel class]};
 }
 @end
 
@@ -24,10 +24,24 @@
 
 @implementation ELGoodslistModel
 
+//替换制定的映射属性
++ (NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"isDelete" : @"delete"};
+}
+
 @end
 
 
 @implementation ELGoodsslidesModel
+
+@end
+
+
+@implementation ELShopNavigationModel
+@end
+
+@implementation ELShopBannerModel
 
 @end
 

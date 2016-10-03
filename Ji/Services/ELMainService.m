@@ -176,7 +176,7 @@
     [para setObject:@"shop" forKey:@"type"];
     [para setObject:integerToString(page) forKey:@"pageNo"];
     [para setObject:@(shopId) forKey:@"shopId"];
-    return [[AFAppDotNetAPIClient sharedClient] POST:DMURL(@"shop/home") parameters:jsonDict(para)
+    return [[AFAppDotNetAPIClient sharedClient] POST:DMURL(@"shop/shomehead") parameters:jsonDict(para)
                                             progress:nil
                                              success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                                                  ELStatus *status = [ELStatus mj_objectWithKeyValues:responseObject[@"status"]];
